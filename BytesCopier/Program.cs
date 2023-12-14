@@ -13,7 +13,7 @@ namespace BytesCopier
             //command line args are
             //"file to copy from" StartOffset(hex), ByteCount(hex) 
 #if DEBUG
-            args = new string[] { "C:\\Users\\sevans\\source\\repos\\BytesCopier\\BytesCopier\\bin\\Debug\\net5.0\\test\\E.bmp", 36.ToString(), 40.ToString() };
+            args = new string[] { "C:\\Users\\sevans\\source\\repos\\BytesCopier\\BytesCopier\\bin\\Debug\\net5.0\\test\\@.bmp", 36.ToString(), 40.ToString() };
 #endif
             string filePath = args[0];
             int offset = int.Parse(args[1], System.Globalization.NumberStyles.HexNumber);
