@@ -23,7 +23,7 @@ namespace BytesCopier
                 //restore all the files from the undo folder
                 if (!Directory.Exists(undoPath) || ReadUndoDestination() == "")
                 {
-                    Console.WriteLine("Error: Undo folder not found at\n" + undoPath);
+                    Console.WriteLine("Error: Undo folder not found at" + undoPath);
                     return;
                 }
                 RestoreFromUndo();
